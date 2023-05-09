@@ -16,144 +16,184 @@
 }
 
 header {
-    padding: 40px;
-    background-color: var(--cor2);
+    padding: 10px;
+    background-color: var(--cor4);
     background-size: cover;
 }
 
 header > h1 {
-    color: var(--cor4);
+    color: var(--cor2);
     text-shadow: 2px 2px var(--cor3);
     text-align: center;
 }
 
-
 section#who {
-    background-color: var(--cor2);
-    display: block;
-    padding-bottom: 150px ;
-    margin-top: 10px;
+    background: url(../imagens/who.jpg) center bottom;
+    background-size: cover;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 400px;
+}
+
+section#twho {
+    padding: 10px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.301);
+    margin: auto;
+}
+
+section#twho p {
+    text-align: center;
+}
+
+section#who h2 {
+   text-align: center;
+}
+
+section#ialbum {
+    width: 60vw;
+    margin: auto;
     margin-bottom: 10px;
+}
+
+section#talbum h2 {
+    text-align: center;
+    color: var(--cor4);
+    padding-top: 20px;
+}
+
+section#talbum p {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+section#talbum a {
+    background-color: var(--cor4);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+section#talbum a:hover {
+    background-color: var(--cor3);
+}
+
+   section#ialbum img {
+    width: 60vw;
 }
 
 section#show {
-    background-color: var(--cor2);
-    display: block;
-    padding-bottom: 150px ;
+    background: url(../imagens/show.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
     margin-bottom: 10px;
 }
 
-section#album {
-    background-color: var(--cor2);
-    display: block;
-    padding-bottom: 150px ;
-    margin-bottom: 10px;
+section#tshow h2 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+section#tshow p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section#tshow a {
+    background-color: var(--cor4);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+section#tshow a:hover {
+    background-color: var(--cor3);
 }
 
 section#com {
-    background-color: var(--cor2);
-    display: block;
-    padding-bottom: 150px ;
+    background: url(../imagens/fa.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+}
+
+section#tcom h2 {
+    text-align: center;
+    color: var(--cor4);
+    padding-top: 20px;
+}
+
+section#tcom p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section#tcom a {
+    background-color: var(--cor4);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+section#tcom a:hover {
+    background-color: var(--cor3);
+}
+
+section#icon {
+    width: 80vw;
+    margin: auto;
     margin-bottom: 10px;
 }
 
-section#con {
-    background-color: var(--cor2);
-    display: block;
-    padding-bottom: 150px ;
-    margin-bottom: 10px;
-}
-
-
-#imgl > img {
-    padding: 10px;
-    width: 50vw;
-    height: 280px;
-    float: left;
-    border-radius: 20px;
-}
-
-#txtr > h2 {
-    padding: 10px;
-    color: var(--cor4);
-    margin-bottom: 60px;
+section#tcon h2 {
     text-align: center;
-
-}
-
-#txtr a {
-    text-decoration: none;
     color: var(--cor4);
-    background-color: rgba(255, 255, 255, 0.199);
-    padding: 10px;
-    margin-left: 12vw;
+    padding-top: 20px;
 }
 
-#txtr a:hover {
-    background-color: rgba(255, 255, 255, 0.541);
-}
-
-#imgr > img {
-    padding: 10px;
-    width: 50vw;
-    height: 280px;
-    float: right;
-    border-radius: 20px;
-}
-
-#txtl > h2 {
-    padding: 10px;
-    color: var(--cor4);
-    margin-bottom: 60px;
+section#tcon p {
     text-align: center;
-
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
-#txtl a {
-    text-decoration: none;
-    color: var(--cor4);
-    background-color: rgba(255, 255, 255, 0.199);
-    padding: 10px;
-    margin-left: 14vw;
-
-}
-
-#txtl a:hover {
-    background-color: rgba(255, 255, 255, 0.541);
-}
-
-#txtl p {
-    color: var(--cor4);
-}
-
-#txts > h2 {
-    padding: 10px;
-    color: var(--cor4);
-    margin-bottom: 70px;
-    text-align: center;
+   section#icon img {
+    width: 80vw;
 }
 
 .fa {
     text-decoration: none;
-    color: var(--cor4);
-    background-color: rgba(255, 255, 255, 0.199);
+    background-color: var(--cor4);
+    color: white;
     padding: 10px;
+    margin-right: 2px ;
+    margin-left: 2px ;
+    border-radius: 10px;
+    width: 4vw;
 }
 
 .fa:hover {
-    background-color: rgba(255, 255, 255, 0.541);
-}
-
-#face {margin-left: 40px;}
+    background-color: var(--cor3)}
 
 footer {
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     display: block;
 }
 
-footer p {text-align: center;
+footer p {
+text-align: center;
 font-size: 0.7em;
 padding: 10px;
+color: white;
 }
 
 

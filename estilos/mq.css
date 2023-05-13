@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    section#who {
+        background-position-y: -700px ;
+        background-repeat: no-repeat;
+    }
+
+    section#twho p {
+        font-size: 1em;
+    }
+    
+    section#who h2 {
+        font-size: 3em;
+    }
+
+
+    section#talbum h2 { 
+    font-size: 3em;
+    }
+
+    section#ialbum {
+        width: 25vw;
+    }
+
+    section#ialbum img {
+        width: 25vw;
+
+    }
+
+    section#tshow h2 {
+        font-size: 3em;
+    }
+
+    section#com {
+    background-position: top center;
+    }
+  
+    
+    section#com h2 {
+        font-size: 3em;
+    }
+    
+
+    section#con {
+        height: 490px;
+    
+    }
+
+    section#tcon {
+        width: 50%;
+        float: right;
+    }
+
+    section#tcon h2 {
+        font-size: 3em;
+    }
+
+    section#icon {
+        width: 50%;
+        float: left;
+
+    }
+
+    section#icon img {
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    .fa {
+        width: 25vw;
+        margin-top: 40px 
+    }
+
+}
